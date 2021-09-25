@@ -12,7 +12,7 @@ module.exports = {
 	plugins: ['@typescript-eslint'],
 	rules: {
 		'@typescript-eslint/comma-dangle': 'off',
+		'operator-linebreak': 'off',
 	},
 	ignorePatterns: ['dist'],
 };
- 
