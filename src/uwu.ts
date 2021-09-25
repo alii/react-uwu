@@ -5,10 +5,10 @@ export const uwu = (text: string) => {
 
 	// Find Regex Matches
 	text = text.replace(/(?:l|r)/g, 'w');
-    text = text.replace(/(?:L|R)/g, 'W');
+	text = text.replace(/(?:L|R)/g, 'W');
 	text = text.replace(/!+/g, ` ${kaomoji[Math.floor(Math.random() * kaomoji.length)]}`);
 	text = text.replace(
-		new RegExp("\\?", "g"),
+		new RegExp('\\?', 'g'),
 		`${kaomojiConfused[Math.floor(Math.random() * kaomojiConfused.length)]}`
 	);
 
