@@ -1,7 +1,7 @@
 {
 	"name": "react-uwu",
 	"description": "impwove youw weact app with t-this absowutewy inconspicuous libwawry",
-	"version": "0.0.2",
+	"version": "1.0.0",
 	"types": "./dist/index.d.ts",
 	"type": "module",
 	"exports": {
