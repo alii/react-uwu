@@ -1,9 +1,9 @@
 export const kaomoji = [
-	'(* ^ ω ^)', 
-	'(o^▽^o)', 
-	'(≧◡≦)', 
-	' ☆⌒ヽ(*"､^*)chu', 
-	'( ˘⌣˘)♡(˘⌣˘ )', 
+	'(* ^ ω ^)',
+	'(o^▽^o)',
+	'(≧◡≦)',
+	' ☆⌒ヽ(*"､^*)chu',
+	'( ˘⌣˘)♡(˘⌣˘ )',
 	'xD',
 	'(⁄ ⁄>⁄ ▽ ⁄<⁄ ⁄)..',
 	'(*^.^*)..,',
@@ -13,6 +13,6 @@ export const kaomoji = [
 	'.. ',
 	' mmm..',
 	'O.o',
-];
+] as const;
 
-export const kaomojiConfused = [' (o_O)?', ' (°ロ°) !?', ' (ーー;)?', ' owo?'];
+export const kaomojiConfused = [' (o_O)?', ' (°ロ°) !?', ' (ーー;)?', ' owo?'] as const;
